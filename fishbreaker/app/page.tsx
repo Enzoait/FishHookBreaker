@@ -7,30 +7,22 @@ export default function Home() {
       <section className="relative overflow-hidden">
         {/* Background gradient blobs */}
         <div className="pointer-events-none absolute inset-0 -z-10">
-          <div className="absolute -top-24 left-1/2 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-sky-400/10 blur-3xl" />
-          <div className="absolute -top-24 left-1/4 h-[400px] w-[400px] rounded-full bg-indigo-400/10 blur-3xl" />
+          <div className="absolute -top-24 left-1/2 h-150 w-150 -translate-x-1/2 rounded-full bg-sky-400/10 blur-3xl" />
+          <div className="absolute -top-24 left-1/4 h-100 w-100 rounded-full bg-indigo-400/10 blur-3xl" />
         </div>
 
         <div className="mx-auto max-w-6xl px-6 pb-24 pt-28 text-center sm:pt-36">
-          {/* Badge */}
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-sky-200 bg-sky-50 px-4 py-1.5 text-sm font-medium text-sky-700 dark:border-sky-500/20 dark:bg-sky-500/10 dark:text-sky-300">
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-sky-500" />
-            </span>
-            Protection anti-phishing IA
-          </div>
 
           <h1 className="mx-auto max-w-4xl text-4xl font-extrabold tracking-tight text-zinc-900 dark:text-white sm:text-6xl lg:text-7xl">
             Brisez les hameçons{" "}
-            <span className="bg-gradient-to-r from-sky-500 to-indigo-600 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-sky-500 to-indigo-600 bg-clip-text text-transparent">
               avant qu&apos;ils ne vous attrapent
             </span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-400 sm:text-xl">
-            FishBreaker analyse vos fichiers et emails suspects en quelques
-            secondes grâce à l&apos;intelligence artificielle. Identifiez les
+            FishHookBreaker analyse vos fichiers et emails suspects en quelques
+            secondes et totalement gratuitement. Identifiez les
             menaces de phishing instantanément.
           </p>
 
@@ -38,7 +30,7 @@ export default function Home() {
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               href="/detecteur"
-              className="inline-flex items-center gap-2.5 rounded-full bg-gradient-to-r from-sky-500 to-indigo-600 px-8 py-3.5 text-base font-semibold text-white shadow-lg shadow-sky-500/25 transition-all hover:shadow-xl hover:shadow-sky-500/30 hover:brightness-110"
+              className="inline-flex items-center gap-2.5 rounded-full bg-linear-to-r from-sky-500 to-indigo-600 px-8 py-3.5 text-base font-semibold text-white shadow-lg shadow-sky-500/25 transition-all hover:shadow-xl hover:shadow-sky-500/30 hover:brightness-110"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +44,7 @@ export default function Home() {
               >
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
               </svg>
-              Analyser un fichier
+              Analyser un mail
             </Link>
             <Link
               href="/a-propos"
@@ -81,7 +73,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-white sm:text-4xl">
-              Comment ça fonctionne
+              Comment agir pour votre sécurité en ligne ?
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-zinc-600 dark:text-zinc-400">
               Trois étapes simples pour sécuriser votre navigation et vos
@@ -95,7 +87,7 @@ export default function Home() {
                 step: "01",
                 title: "Déposez votre fichier",
                 description:
-                  "Glissez-déposez un email, un lien ou un fichier suspect dans notre interface sécurisée.",
+                  "Glissez-déposez un email suspect dans notre interface sécurisée.",
                 icon: (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -115,9 +107,9 @@ export default function Home() {
               },
               {
                 step: "02",
-                title: "Analyse IA en temps réel",
+                title: "Analyse avancée en temps réel",
                 description:
-                  "Notre intelligence artificielle scanne le contenu et détecte les patterns de phishing connus et inconnus.",
+                  "Notre outil scanne le contenu et détecte les patterns de phishing les plus courants.",
                 icon: (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -161,7 +153,7 @@ export default function Home() {
                 key={feature.step}
                 className="group relative rounded-2xl border border-zinc-200/80 bg-white p-8 transition-all hover:border-sky-200 hover:shadow-lg hover:shadow-sky-500/5 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-sky-500/30"
               >
-                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-sky-500 to-indigo-600 text-white shadow-md shadow-sky-500/20">
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-linear-to-br from-sky-500 to-indigo-600 text-white shadow-md shadow-sky-500/20">
                   {feature.icon}
                 </div>
                 <span className="mb-2 block text-xs font-bold uppercase tracking-widest text-sky-500">
@@ -190,7 +182,7 @@ export default function Home() {
               { value: "24/7", label: "Disponibilité" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
-                <div className="text-4xl font-extrabold tracking-tight bg-gradient-to-r from-sky-500 to-indigo-600 bg-clip-text text-transparent">
+                <div className="text-4xl font-extrabold tracking-tight bg-linear-to-r from-sky-500 to-indigo-600 bg-clip-text text-transparent">
                   {stat.value}
                 </div>
                 <div className="mt-2 text-sm font-medium text-zinc-600 dark:text-zinc-400">
@@ -209,12 +201,12 @@ export default function Home() {
             Prêt à vous protéger ?
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-zinc-600 dark:text-zinc-400">
-            Commencez dès maintenant à analyser vos fichiers suspects.
-            C&apos;est gratuit, rapide et confidentiel.
+            Commencez dès maintenant à analyser vos mails suspects.
+            C'est gratuit, rapide et confidentiel.
           </p>
           <Link
             href="/detecteur"
-            className="mt-8 inline-flex items-center gap-2.5 rounded-full bg-gradient-to-r from-sky-500 to-indigo-600 px-8 py-3.5 text-base font-semibold text-white shadow-lg shadow-sky-500/25 transition-all hover:shadow-xl hover:shadow-sky-500/30 hover:brightness-110"
+            className="mt-8 inline-flex items-center gap-2.5 rounded-full bg-linear-to-r from-sky-500 to-indigo-600 px-8 py-3.5 text-base font-semibold text-white shadow-lg shadow-sky-500/25 transition-all hover:shadow-xl hover:shadow-sky-500/30 hover:brightness-110"
           >
             Lancer une analyse
             <svg

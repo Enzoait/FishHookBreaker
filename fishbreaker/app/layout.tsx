@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FishBreaker — Détecteur de Phishing",
+  title: "FishHookBreaker — Détecteur de Phishing",
   description:
     "Analysez vos fichiers et emails suspects grâce à l'intelligence artificielle. Protégez-vous contre le phishing.",
 };

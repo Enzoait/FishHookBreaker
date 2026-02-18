@@ -157,7 +157,7 @@ export default function FileDropZone() {
 
       {/* Analyze button */}
       {file && (
-        <button className="flex w-full items-center justify-center gap-2.5 rounded-xl bg-gradient-to-r from-sky-500 to-indigo-600 px-6 py-4 text-base font-semibold text-white shadow-lg shadow-sky-500/25 transition-all hover:shadow-xl hover:shadow-sky-500/30 hover:brightness-110">
+        <button className="flex w-full items-center justify-center gap-2.5 rounded-xl bg-linear-to-r from-sky-500 to-indigo-600 px-6 py-4 text-base font-semibold text-white shadow-lg shadow-sky-500/25 transition-all hover:shadow-xl hover:shadow-sky-500/30 hover:brightness-110">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"

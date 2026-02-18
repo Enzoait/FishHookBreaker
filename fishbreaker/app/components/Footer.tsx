@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2.5">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-sky-500 to-indigo-600 text-white">
+              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-linear-to-br from-sky-500 to-indigo-600 text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -23,7 +23,7 @@ export default function Footer() {
                 </svg>
               </div>
               <span className="text-base font-bold tracking-tight text-zinc-900 dark:text-white">
-                Fish<span className="text-sky-500">Breaker</span>
+                FishHook<span className="text-sky-500">Breaker</span>
               </span>
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-zinc-500 dark:text-zinc-400">
@@ -105,7 +105,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-zinc-200/60 pt-8 dark:border-zinc-800/60 sm:flex-row">
           <p className="text-xs text-zinc-400 dark:text-zinc-500">
-            &copy; {new Date().getFullYear()} FishBreaker. Tous droits réservés.
+            &copy; {new Date().getFullYear()} FishHookBreaker. Tous droits réservés.
           </p>
           <div className="flex items-center gap-4">
             {/* GitHub */}

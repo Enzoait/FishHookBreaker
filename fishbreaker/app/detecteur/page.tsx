@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import FileDropZone from "./FileDropZone";
 
 export const metadata: Metadata = {
-  title: "Détecteur — FishBreaker",
+  title: "Détecteur — FishHookBreaker",
   description:
     "Déposez un fichier suspect pour l'analyser instantanément avec notre IA anti-phishing.",
 };

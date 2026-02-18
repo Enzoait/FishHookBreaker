@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "À propos — FishBreaker",
+  title: "À propos — FishHookBreaker",
   description:
-    "Découvrez FishBreaker, l'outil de détection de phishing alimenté par l'intelligence artificielle.",
+    "Découvrez FishHookBreaker, l'outil de détection de phishing alimenté par l'intelligence artificielle.",
 };
 
 export default function APropos() {
@@ -27,7 +27,7 @@ export default function APropos() {
               </span>
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
-              FishBreaker est né de la volonté de protéger chaque utilisateur
+              FishHookBreaker est né de la volonté de protéger chaque utilisateur
               contre les tentatives de phishing toujours plus sophistiquées.
               Notre outil utilise l&apos;intelligence artificielle de pointe
               pour détecter les menaces avant qu&apos;elles ne causent des
@@ -199,7 +199,7 @@ export default function APropos() {
                 Propulsé par l&apos;IA de dernière génération
               </h2>
               <p className="mt-4 leading-relaxed text-zinc-600 dark:text-zinc-400">
-                FishBreaker combine des modèles de machine learning avancés avec
+                FishHookBreaker combine des modèles de machine learning avancés avec
                 une base de données de menaces constamment mise à jour. Notre
                 système analyse les patterns textuels, les métadonnées et les
                 structures des fichiers pour identifier les tentatives de

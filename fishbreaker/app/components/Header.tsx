@@ -34,7 +34,7 @@ export default function Header() {
             </svg>
           </div>
           <span className="text-lg font-bold tracking-tight text-zinc-900 dark:text-white">
-            Fish<span className="text-sky-500">Breaker</span>
+            FishHook<span className="text-sky-500">Breaker</span>
           </span>
         </Link>
 
