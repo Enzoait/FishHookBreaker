@@ -12,18 +12,17 @@ export default function Home() {
         </div>
 
         <div className="mx-auto max-w-6xl px-6 pb-24 pt-28 text-center sm:pt-36">
-
           <h1 className="mx-auto max-w-4xl text-4xl font-extrabold tracking-tight text-zinc-900 dark:text-white sm:text-6xl lg:text-7xl">
             Brisez les hameçons{" "}
             <span className="bg-linear-to-r from-sky-500 to-indigo-600 bg-clip-text text-transparent">
-              avant qu&apos;ils ne vous attrapent
+              avant qu'ils ne vous attrapent
             </span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-400 sm:text-xl">
             FishHookBreaker analyse vos fichiers et emails suspects en quelques
-            secondes et totalement gratuitement. Identifiez les
-            menaces de phishing instantanément.
+            secondes et totalement gratuitement. Identifiez les menaces de
+            phishing instantanément.
           </p>
 
           {/* CTA Buttons */}
@@ -201,8 +200,8 @@ export default function Home() {
             Prêt à vous protéger ?
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-zinc-600 dark:text-zinc-400">
-            Commencez dès maintenant à analyser vos mails suspects.
-            C'est gratuit, rapide et confidentiel.
+            Commencez dès maintenant à analyser vos mails suspects. C'est
+            gratuit, rapide et confidentiel.
           </p>
           <Link
             href="/detecteur"

@@ -13,7 +13,7 @@ export default function Detecteur() {
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="pointer-events-none absolute inset-0 -z-10">
-          <div className="absolute -top-24 left-1/3 h-[500px] w-[500px] rounded-full bg-sky-400/10 blur-3xl" />
+          <div className="absolute -top-24 left-1/3 h-125 w-125 rounded-full bg-sky-400/10 blur-3xl" />
         </div>
 
         <div className="mx-auto max-w-4xl px-6 pb-8 pt-28 text-center sm:pt-36">
@@ -21,13 +21,13 @@ export default function Detecteur() {
             Détecteur
           </span>
           <h1 className="text-4xl font-extrabold tracking-tight text-zinc-900 dark:text-white sm:text-5xl">
-            Analysez vos fichiers{" "}
-            <span className="bg-gradient-to-r from-sky-500 to-indigo-600 bg-clip-text text-transparent">
+            Analysez vos mails{" "}
+            <span className="bg-linear-to-r from-sky-500 to-indigo-600 bg-clip-text text-transparent">
               en un instant
             </span>
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-zinc-600 dark:text-zinc-400">
-            Déposez un fichier suspect ci-dessous. Notre IA l&apos;analysera en
+            Déposez un mail suspect ci-dessous. Notre système l'analysera en
             quelques secondes et vous donnera un verdict clair.
           </p>
         </div>
@@ -89,7 +89,7 @@ export default function Detecteur() {
                 ),
                 title: "Chiffré & sécurisé",
                 description:
-                  "Vos fichiers sont analysés en mémoire et jamais stockés.",
+                  "Vos mails sont analysés en mémoire et jamais stockés.",
               },
               {
                 icon: (
@@ -125,8 +125,8 @@ export default function Detecteur() {
                     <polyline points="22 4 12 14.01 9 11.01" />
                   </svg>
                 ),
-                title: "99.7% de précision",
-                description: "IA entraînée sur des millions de menaces.",
+                title: "Extrême précision",
+                description: "Système reconnaissant de nombreux types de phishing.",
               },
             ].map((card) => (
               <div

@@ -12,7 +12,7 @@ export default function APropos() {
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="pointer-events-none absolute inset-0 -z-10">
-          <div className="absolute -top-24 right-1/3 h-[500px] w-[500px] rounded-full bg-indigo-400/10 blur-3xl" />
+          <div className="absolute -top-24 right-1/3 h-125 w-125 rounded-full bg-indigo-400/10 blur-3xl" />
         </div>
 
         <div className="mx-auto max-w-6xl px-6 pb-16 pt-28 sm:pt-36">
@@ -22,15 +22,15 @@ export default function APropos() {
             </span>
             <h1 className="text-4xl font-extrabold tracking-tight text-zinc-900 dark:text-white sm:text-5xl">
               Notre mission :{" "}
-              <span className="bg-gradient-to-r from-sky-500 to-indigo-600 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-sky-500 to-indigo-600 bg-clip-text text-transparent">
                 un internet plus sûr
               </span>
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
-              FishHookBreaker est né de la volonté de protéger chaque utilisateur
-              contre les tentatives de phishing toujours plus sophistiquées.
-              Notre outil utilise l&apos;intelligence artificielle de pointe
-              pour détecter les menaces avant qu&apos;elles ne causent des
+              FishHookBreaker est né de la volonté de protéger chaque
+              utilisateur contre les tentatives de phishing toujours plus
+              sophistiquées. Notre outil utilise une technologie de detection
+              robuste pour déceler les menaces avant qu'elles ne causent des
               dégâts.
             </p>
           </div>
@@ -69,7 +69,7 @@ export default function APropos() {
               {
                 title: "Transparence",
                 description:
-                  "Nous expliquons chaque décision de notre IA. Vous comprenez pourquoi un fichier est marqué comme suspect.",
+                  "Nous vous expliquons clairement pourquoi votre mail est marqué comme suspect.",
                 icon: (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@ export default function APropos() {
               {
                 title: "Innovation continue",
                 description:
-                  "Notre modèle d'IA est constamment entraîné sur les dernières menaces pour rester à la pointe de la détection.",
+                  "Notre algorithme est constamment mis à jour pour rester à la pointe de la détection.",
                 icon: (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +109,7 @@ export default function APropos() {
               {
                 title: "Accessibilité",
                 description:
-                  "Un outil simple et gratuit, accessible à tous. Pas besoin d'être expert en cybersécurité pour se protéger.",
+                  "Un outil simple et gratuit, accessible à tous.",
                 icon: (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +131,7 @@ export default function APropos() {
               {
                 title: "Performance",
                 description:
-                  "Analyse en moins de 2 secondes grâce à notre infrastructure optimisée et nos algorithmes de pointe.",
+                  "Analyse ultra rapide grâce à notre infrastructure optimisée et nos algorithmes de pointe.",
                 icon: (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -150,7 +150,7 @@ export default function APropos() {
               {
                 title: "Open Source",
                 description:
-                  "Notre code est auditable et ouvert à la communauté. La sécurité ne devrait jamais être une boîte noire.",
+                  "Notre code est auditable et ouvert à la communauté.",
                 icon: (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -172,7 +172,7 @@ export default function APropos() {
                 key={value.title}
                 className="rounded-2xl border border-zinc-200/80 bg-white p-8 transition-all hover:border-sky-200 hover:shadow-lg hover:shadow-sky-500/5 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-sky-500/30"
               >
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-sky-500 to-indigo-600 text-white shadow-md shadow-sky-500/20">
+                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-linear-to-br from-sky-500 to-indigo-600 text-white shadow-md shadow-sky-500/20">
                   {value.icon}
                 </div>
                 <h3 className="text-lg font-semibold text-zinc-900 dark:text-white">
@@ -196,18 +196,16 @@ export default function APropos() {
                 Technologie
               </span>
               <h2 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-white">
-                Propulsé par l&apos;IA de dernière génération
+                Notre algorithme de détection avancé
               </h2>
               <p className="mt-4 leading-relaxed text-zinc-600 dark:text-zinc-400">
-                FishHookBreaker combine des modèles de machine learning avancés avec
-                une base de données de menaces constamment mise à jour. Notre
-                système analyse les patterns textuels, les métadonnées et les
-                structures des fichiers pour identifier les tentatives de
+                Notre système analyse les patterns textuels
+                les structures des fichiers pour identifier les tentatives de
                 phishing les plus subtiles.
               </p>
               <ul className="mt-8 space-y-4">
                 {[
-                  "Analyse NLP des contenus textuels",
+                  "Analyse des contenus textuels",
                   "Détection d'URLs malveillantes",
                   "Vérification des signatures numériques",
                   "Analyse comportementale des pièces jointes",
@@ -271,7 +269,7 @@ export default function APropos() {
                         &lt;2s
                       </div>
                       <div className="text-sm text-zinc-500">
-                        Temps d&apos;analyse moyen
+                        Temps d'analyse moyen
                       </div>
                     </div>
                     <div>

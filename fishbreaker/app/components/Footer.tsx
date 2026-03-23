@@ -27,8 +27,8 @@ export default function Footer() {
               </span>
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-zinc-500 dark:text-zinc-400">
-              Détectez les tentatives de phishing avant qu&apos;elles ne vous
-              atteignent. Protégez-vous avec l&apos;IA.
+              Détectez les tentatives de phishing avant qu'elles ne vous
+              atteignent. Protégez-vous avec l'IA.
             </p>
           </div>
 
@@ -105,7 +105,8 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-zinc-200/60 pt-8 dark:border-zinc-800/60 sm:flex-row">
           <p className="text-xs text-zinc-400 dark:text-zinc-500">
-            &copy; {new Date().getFullYear()} FishHookBreaker. Tous droits réservés.
+            &copy; {new Date().getFullYear()} FishHookBreaker. Tous droits
+            réservés.
           </p>
           <div className="flex items-center gap-4">
             {/* GitHub */}
